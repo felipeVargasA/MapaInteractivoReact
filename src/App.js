@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Map from "./Map.js";
 import Modal from "./components/modals/Modal";
+import MainVideo from "./components/modals/MainVideo";
 import logo from "./assets/logo_skyview.svg";
 import img1 from "./assets/1.png";
 import img2 from "./assets/2.png";
@@ -195,6 +196,7 @@ export default function App() {
       {modalOpen && (
         <Modal order={modalOrder} close={() => setModalOpen(false)} />
       )}
+      <MainVideo />
     </div>
   );
 }
