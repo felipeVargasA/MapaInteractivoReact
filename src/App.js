@@ -29,7 +29,7 @@ export default function App() {
         <MobileMenu>
           <a
             className="no-underline text-menu text-sm"
-            href="https://www.agrosuper.cl/"
+            href="https://www.agrosuper.cl/experiencia-sky-view/"
           >
             VOLVER
           </a>
@@ -172,7 +172,7 @@ export default function App() {
             </div>
             <div>
               <button class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full">
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5-JZEmzjpUqSVqsKK9aCvFx8AevUKepHtMWbtUCmc_xUNExNVEVPSFhCUlA2NzZEODBXNkdKM1RYRC4u">
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=5-JZEmzjpUqSVqsKK9aCvFx8AevUKepHtMWbtUCmc_xUNExNVEVPSFhCUlA2NzZEODBXNkdKM1RYRC4u" target="_blank" rel="noreferrer">
                   Dudas respecto a nuestros horario
                 </a>
               </button>
@@ -206,7 +206,7 @@ const Navbar = ({ menuOpen, setMenuOpen }) => (
     </div>
     <a
       className="no-underline text-menu text-sm"
-      href="https://www.agrosuper.cl/"
+      href="https://www.agrosuper.cl/experiencia-sky-view/"
     >
       VOLVER
     </a>
