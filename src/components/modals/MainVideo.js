@@ -11,15 +11,15 @@ const MainVideo = () => {
 					className="justify-center items-center flex fixed inset-0 z-50"
 					onClick={() => setOpenModal(false)}
 				>
-					<iframe
-						width="80%"
-						height="80%"
-						src="https://www.youtube.com/embed/s0mkxit5pWo?autoplay=1"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+					
+						<video width="80%" height="80%" controls autoPlay muted onClick={(e) => {
+							e.stopPropagation();
+						}}>
+                            <source src="/videos/intro-skyview.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+
+					
 				</div>
 				<div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
 			</>
